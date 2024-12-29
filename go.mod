@@ -2,7 +2,7 @@ module cert
 
 go 1.23.4
 
-require github.com/WJQSERVER-STUDIO/go-utils/logger v1.0.1
+require github.com/WJQSERVER-STUDIO/go-utils/logger v1.1.0
 
 require (
 	github.com/bytedance/sonic v1.12.6 // indirect
