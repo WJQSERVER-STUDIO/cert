@@ -2,7 +2,6 @@ package core
 
 import (
 	"cert/config"
-	"cert/logger"
 	"crypto"
 	"crypto/rand"
 	"crypto/rsa"
@@ -13,6 +12,8 @@ import (
 	"log"
 	"os"
 	"time"
+
+	"github.com/WJQSERVER-STUDIO/go-utils/logger"
 
 	"github.com/go-acme/lego/v4/certcrypto"
 	"github.com/go-acme/lego/v4/certificate"

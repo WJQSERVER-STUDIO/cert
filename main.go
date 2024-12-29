@@ -8,10 +8,11 @@ package main
 import (
 	"cert/config"
 	"cert/core"
-	"cert/logger"
 	"flag"
 	"fmt"
 	"log"
+
+	"github.com/WJQSERVER-STUDIO/go-utils/logger"
 
 	"github.com/gin-gonic/gin"
 )

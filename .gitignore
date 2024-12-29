@@ -3,3 +3,4 @@
 *.key
 cert_info.json
 *.bak
+/output/
