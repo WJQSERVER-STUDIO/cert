@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cert:
+    image: 'wjqserver/cert:latest'
+    restart: always
+    volumes:
+      - './cert/config:/data/cert/config'
+      - './cert/log:/data/cert/log'
+      - './cert/output:/data/cert/output'

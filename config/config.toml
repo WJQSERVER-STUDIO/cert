@@ -1,0 +1,16 @@
+[log]
+logfilepath = "/data/cert/log/cert.log" 
+maxlogsize = 5 # MB
+
+[account]
+email = "demo@example.com"
+token = ""
+
+[path]
+cert = "/data/cert/output/cert.crt"
+key = "/data/cert/output/cert.key"
+caCert = "/data/cert/output/ca.crt"
+json = "/data/cert/output/cert.json"
+
+[domain]
+name = "*.example.com"
