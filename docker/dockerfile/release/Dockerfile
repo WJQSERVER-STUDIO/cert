@@ -21,6 +21,10 @@ RUN VERSION=$(curl -s https://raw.githubusercontent.com/${USER}/${REPO}/main/VER
 RUN wget -O /data/${APPLICATION}/config.toml https://raw.githubusercontent.com/${USER}/${REPO}/main/config/config.toml
 RUN wget -O /usr/local/bin/init.sh https://raw.githubusercontent.com/${USER}/${REPO}/main/docker/dockerfile/dev/init.sh
 
+# 权限
+RUN chmod +x /data/${APPLICATION}/${APPLICATION}
+RUN chmod +x /usr/local/bin/init.sh
+
 FROM alpine:latest
 
 COPY --from=builder /data/${APPLICATION} /data/${APPLICATION}
