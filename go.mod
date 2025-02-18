@@ -34,7 +34,7 @@ require (
 	github.com/BurntSushi/toml v1.4.0
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-acme/lego/v4 v4.21.0
+	github.com/go-acme/lego/v4 v4.22.2
 	github.com/go-jose/go-jose/v4 v4.0.4 // indirect
 	github.com/goccy/go-json v0.10.4 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
